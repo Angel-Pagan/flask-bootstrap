@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+    </head>
+    <body>
+        <h1>Welcome to the Home Page </h1>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navigation Bar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Careers</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/welcome-7.gif" alt="Welcome_gif">
+        <p></p>
+        <button type="button" class="btn btn-dark">Click me</button>
+        <p>This is a test of flask html language with bootstarp</p>
+    </body> 
+    <div class="dropup-center dropup">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Information 
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">About us</a></li>
+          <li><a class="dropdown-item" href="#">Products</a></li>
+          <li><a class="dropdown-item" href="#">Career</a></li>
+        </ul>
+      </div>
+</html>
